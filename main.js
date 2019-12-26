@@ -39,14 +39,9 @@ var app=new Vue({
   }, 
   methods: {
     sortWorks(tag) {
-        console.log(tag.id);
+      console.log(tag.id);
     }
   }
 });
-  
-//   var app = new Vue({
-//   el: "#reso-list",
-//   data: {
-//     lists: ["あきびん", "あきかん", "ペットボトル", "段ボール","古紙","古着","食品トレイ","紙パック"]
-//  }});
+
 

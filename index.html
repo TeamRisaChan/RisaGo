@@ -20,9 +20,11 @@
   
   <section id="reso-list">
     <template  class="tag--lists" v-for="list in lists" v-bind:key="list">
-      <button  v-on:click="sortWorks(list)" type="button" class="chip" >
-        <span class="h3">{{ list.title }}</span>
-      </button>
+      <a href="map.html">
+        <button  v-on:click="sortWorks(list)" type="button" class="chip">
+          <span class="h3">{{ list.title }}</span>
+        </button>
+      </a>
     </template>
   </section>
     
