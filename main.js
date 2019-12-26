@@ -1,11 +1,45 @@
 var app=new Vue({
   el: "#reso-list",
   data: {
-    lists: ["あきびん", "あきかん", "ペットボトル", "段ボール","古紙","古着","食品トレイ","紙パック"]
+    lists: 
+    [
+      {
+        title:"あきびん",
+        id:1
+      },
+      {
+        title:"あきかん",
+        id:2
+      },
+      { 
+        title:"ペットボトル",
+        id:3
+      },
+      {
+        title:"段ボール",
+        id:4
+      },
+      {
+        title:"古紙",
+        id:5
+      },
+      {
+        title:"古着",
+        id:6
+      },
+      {
+        title:"食品トレイ",
+        id:7
+      },
+      {
+        title:"紙パック",
+        id:8
+      }
+    ]
   }, 
   methods: {
     sortWorks(tag) {
-        console.log(tag);
+        console.log(tag.id);
     }
   }
 });

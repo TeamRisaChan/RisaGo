@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>portfolio</title>
+  <title>Risachan</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Webフォント -->
@@ -21,7 +21,7 @@
   <section id="reso-list">
     <template  class="tag--lists" v-for="list in lists" v-bind:key="list">
       <button  v-on:click="sortWorks(list)" type="button" class="chip" >
-        <span class="h3">{{ list }}</span>
+        <span class="h3">{{ list.title }}</span>
       </button>
     </template>
   </section>
