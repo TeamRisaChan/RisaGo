@@ -1,12 +1,8 @@
-.tag--lists{
-    margin:0 auto;
-}
-
 .chip{
     margin-left:10%;
     width:80%;
 
-    margin-top:10%;
+    margin-top:12%;
     
     padding-bottom: 0;
     
@@ -15,4 +11,13 @@
     border-radius: 0.7em;
     font-size: 2.25em;
     font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.back{
+    position:absolute;
+    top:90%;
+    left:3%;
+    font-size: 2em;
+    color:#3C92DB;
+    text-decoration: none;
 }
