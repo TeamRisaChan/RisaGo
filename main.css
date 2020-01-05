@@ -33,3 +33,12 @@ body{
 .hidden{
     display: none;
 }
+
+.test{
+    position:absolute;
+    top:10%;
+    left:3%;
+    font-size: 2em;
+    color:#3C92DB;
+    text-decoration: none;
+}
